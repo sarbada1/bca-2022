@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <blockquote>
+      <h1>Student Record</h1>
+      <hr />
+      <label action="">
+        <label for="name">First Name:</label>
+        <input type="text" id="name" /> <br />
+        <br />
+
+        <label for="name">Middle Name:</label>
+        <input type="text" id="name" /> <br />
+        <br />
+
+        <label for="name">Second Name:</label>
+        <input type="text" id="name" /> <br />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" /> <br />
+        <br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" /> <br />
+        <br />
+
+        <label for="password">Confirm Password:</label>
+        <input type="password" id="password" /> <br />
+        <br />
+
+        <label for="phone">Phone no:</label>
+        <input type="number" id="phone" /> <br />
+        <br />
+
+        <label for="phone">Contact no:</label>
+        <input type="number" id="phone" /> <br />
+        <br />
+
+        <label for="country">Country</label> <br>
+        <select name="country" id="country">
+            <option selected disabled>--Select Country--</option>
+            <option value="Nepal">Nepal</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Canada">Canada</option>
+        </select> <br> <br>
+
+        <label >City</label> <br>
+
+        <select name="city" id="city" >
+          <option selected disabled>--Select City--</option>
+
+          <option value="Kathmandu">Kathmandu</option>
+          <option value="Bhaktapur">Bhaktapur</option>
+          <option value="Lalitpur">Lalitpur</option>
+          <option value="Makwanpur">Makwanpur</option>
+          <option value="Dhading">Dhading</option>
+          <option value="Pokhara">Pokhara</option>
+          <option value="Dharan">Dharan</option>
+          <option value="Ilam">Ilam</option>
+          <option value="Dhankuta">Dhankuta</option>
+        </select>
+
+       <br> <br>
+       <label >State</label> <br>
+       <select name="state" id="state">
+        <option selected disabled>--Select your state--</option>
+        <option value="Bagmati ">Bamati Province</option>
+        <option value="Gandaki ">Gandaki Province</option>
+        <option value="karnali ">Karnali Province</option>
+        <option value="Lumbini ">Lumbini Province</option>
+       </select>
+       <br> <br>
+
+       <label>Academic Qualification</label> <br>
+       <select name="academic" id="academic">
+        <option selected disabled>--Select your level--</option>
+        <option value="Primary">Primary education</option>
+        <option value="secondary">Secondary education</option>
+        <option value="higher">Higher education</option>
+        <option value="PHD">PHD</option>
+       </select>
+       <br> <br>
+
+        <label>Gender</label>
+        <label><input type="radio" name="gender" id="male"> Male </label>
+        <label>
+
+            <input type="radio" name="gender" id="female"> Female
+        </label>
+        <br> <br>
+
+        <label>Language Skills</label> <br>
+        <label ><input type="checkbox" name="language" id="hindi">Hindi</label>
+        <label> <input type="checkbox" name="language" id="english">English</label>
+        <label> <input type="checkbox" name="language" id="Nepali">Nepali</label>
+        <label> <input type="checkbox" name="language" id="Others">Others</label>
+        <br> <br>
+
+        <label >Hobby</label> <br>
+        <label ><input type="checkbox" name="singing" id="singing">Singing</label>
+        <label ><input type="checkbox" name="dancing" id="dancing">Dancing</label>
+        <label ><input type="checkbox" name="travelling" id="travelling">Travelling</label>
+        <label ><input type="checkbox" name="reading" id="reading">Reading</label>
+        <br> <br>
+
+        
+
+
+        <label for="date">Date of Birth (B.S)</label> <br>
+        <input type="date" name="date" id="date"> <br> <br>
+
+        <label for="date">Date of Birth (A.D)</label> <br>
+        <input type="date" name="date" id="date"> <br> <br>
+
+        <label for="profile picture">Profile Picture</label> <br>
+        <input type="file" name="profile picture" id="profile picture"> <br>  <br>
+
+        <label for="citizenship">Citizenship</label> <br>
+        <input type="file" name=" picture" id="citizenship">  <br>  <br>
+
+        <label for="licence">Driving Licence(if have one)</label> <br>
+        <input type="file" name="licence" id="licence">  <br> <br>
+
+
+
+
+        
+
+       <label for="comment">Comment</label> <br>
+       <textarea name="comment" id="comment" cols="30" rows="10"></textarea> <br>
+
+        <button>Add</button> <br> <br>
+
+        <h2>Record of students</h2>
+
+
+
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Middle Name</th>
+                    <th>last Name</th>
+                    <th>Gender </th>
+                    <th>Email ID</th>
+                    <th>Address
+                    </th>
+                    <th>Date of Birth</th>
+                    <th>Hobby</th>
+                    <th>Language Skills</th>
+                    <th>Academic Qualification</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Ram</td>
+                    <td>Jung</td>
+                    <td>Thapa</td>
+                    <td>Male</td>
+                    <td>ram@gmail.com</td>
+                    <td>Lalitpur</td>
+                    <td>2000-3-9</td>
+                    <td>Reading</td>
+                    <td> English, Nepali</td>
+                    <td>Higher education</td>
+                </tr>
+                <tr>
+                    <td>Shyam</td>
+                    <td></td>
+                    <td>Pandey</td>
+                    <td>Male</td>
+                    <td>shyam@gmail.com</td>
+                    <td>Bhaktapur</td>
+                    <td>2005-6-11</td>
+                    <td>Reading</td>
+                    <td> English, Nepali</td>
+                    <td>Secondary education</td>
+                </tr>
+                <tr>
+                    <td>Sita</td>
+                    <td></td>
+                    <td>Basnet</td>
+                    <td>Female</td>
+                    <td>sita@gmail.com</td>
+                    <td>Dhading</td>
+                    <td>2002-8-6</td>
+                    <td>Dancing</td>
+                    <td> English, Hindi</td>
+                    <td>PHD</td>
+                </tr>
+                <tr>
+                    <td>Gita</td>
+                    <td></td>
+                    <td>Khanal</td>
+                    <td>Female</td>
+                    <td>gita@gmail.com</td>
+                    <td>Dhading</td>
+                    <td>2002-8-6</td>
+                    <td>Dancing</td>
+                    <td> English, Hindi</td>
+                    <td>PHD</td>
+                </tr>
+                <tr>
+                    <td>Rita</td>
+                    <td></td>
+                    <td>Chaulagain</td>
+                    <td>Female</td>
+                    <td>rita@gmail.com</td>
+                    <td>Dhading</td>
+                    <td>2002-8-6</td>
+                    <td>Dancing</td>
+                    <td> English, Hindi</td>
+                    <td>PPrimary education</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+      </form>
+    </blockquote>
+  </body>
+</html>

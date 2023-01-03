@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    height: 90px;
+    width: 100%;
+   
+    align-items: center;
+}
+.left{
+    width: 20vw;
+    font-size: 30px;
+   
+}
+.right{
+    
+    display: inline-block;
+    width: 80vw;
+    padding: 0 186px;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav{
+    float: right;
+    padding-top: 10px;
+}
+.right li a{
+    text-decoration: none;
+    padding: 0 23px;
+    padding: 0px 20px;
+    font-size: 17px;
+   
+
+
+
+}
+.btn{
+    padding: 12px 19px;
+    border-radius: 6px;
+    float: left;
+}
+.btn:hover{
+    background-color: rgb(2, 37, 2);
+}
+.button-1{
+    padding: 0 1167px;
+}

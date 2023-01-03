@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+header{
+    width: 85%;
+    height: 20%;
+    background-color: rgb(138, 121, 121);
+    position: fixed;
+    left:15%;
+    z-index: 1;
+ 
+}
+
+.btn{
+    margin: 49px 50px;
+    display: flex;
+    
+}
+.btn input{
+    border-radius: 4px 0 0 4px;
+    height: 28px;
+    border: 0;
+    width: 200px;
+    /* position: relative; */
+}
+::placeholder{
+    padding: 4px 10px;
+    color: black;
+    font-size: 18px;
+}
+.btn i{
+    height: 28px;
+    width: 28px;
+    color: white;
+    background-color: blue;
+    padding: 2px 3px;
+    /* position: absolute; */
+    
+    border-radius: 0 4px 4px 0;
+}
+.icons{
+    margin: 0 310px;
+    position: absolute;
+   
+    top: 51px;
+}
+.icons i{
+   
+    background-color: transparent;
+    margin: 0 17px;
+    
+}
+small{
+    right: 110px;
+    font-size: 20px;
+    position: absolute;
+}
+.circle{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    margin-left: 50px;
+    border-radius: 30px;
+    position: absolute;
+    right: 36px;
+    top: 28px;
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+
+
+
+/* Aside */
+aside{
+    height: 100%;
+    width: 15%;
+    background-color: blue;
+    position: absolute;
+    position: fixed
+}
+aside h1{
+    color: rgb(240, 230, 230);
+    margin-left: 50px;
+    font-size: 30px;
+
+}
+hr{
+    width: 170px;
+    height: 0.5px;
+}
+.text1{
+    font-size: 25px;
+    color: rgb(240, 230, 230);
+    margin-left: 63px;
+   
+
+}
+.text2{
+    font-size: 20px;
+    color: rgb(148, 143, 143);
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.text3{
+    font-size: 25px;
+    color: rgb(162, 157, 157);
+    margin-left: 63px;
+    margin-top: 20px; 
+    margin-bottom: 25px;
+    
+
+}
+aside i{
+    height: 28px;
+    width: 28px;
+    color: white;
+    position: absolute;
+    left: 25px;
+    margin-bottom: 20px
+   
+
+}
+
+/* Main */
+main{
+    min-height:65% ;
+    width: 85%;
+    background-color: rgb(188, 175, 175);
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.box{
+    background-color: blue;
+    width: 135px;
+    height: 20px;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    right: 17px;
+    top: 10px
+
+}
+.content-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    height: 100px;
+    width: 250px;
+    background-color:  rgb(170, 157, 182);
+    border-radius: 10px;
+    border-left: 7px solid rgb(15, 102, 146);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.txt{
+    font-size: 25px;
+    color: blue;
+}
+.number{
+    font-size: 25px;
+    color: black;
+}
+.box2{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(170, 157, 182);
+    border-radius: 10px;
+    border-left: 7px solid rgb(13, 240, 17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    height: 100px;
+    width: 250px;
+    background-color:  rgb(170, 157, 182);
+    border-radius: 10px;
+    border-left: 7px solid rgb(209, 183, 15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box3 .txt{
+    color: rgb(189, 140, 49);
+}
+ main h1{
+    color: rgb(72, 67, 67);
+    font-size: 40px;
+    margin-left: 20px;
+}
+/* footer */
+footer{
+    width: 85%;
+    height:15% ;
+    position: fixed;
+    background-color: rgb(26, 18, 18);
+    top:85% ;
+    left: 15%;
+}
